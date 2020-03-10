@@ -14,10 +14,10 @@ Const cdoNTLM = 2 'NTLM
 dim htmlBody
 
 '*PARAMETRO: NOMBRE DEL CLIENTE
-Const nombreNegocio = "Rabi Súper Style, SRL"
+Const nombreNegocio = "Ceramica Apolo SRL"
 
 '*PARAMETRO: DESTINATARIOS SEPARADOS POR ; (PUNTO Y COMA)
-Const destinatario = "rabisuperstyle@gmail.com "
+Const destinatario = "mercedesdiaz199605@gmail.com; e.gomez2@caribemedia.com.do "
 
 if URLDecode(Request.QueryString("email")) <> "" then
     emailfrom = URLDecode(Request.QueryString("email"))
