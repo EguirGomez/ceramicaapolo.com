@@ -443,15 +443,17 @@ textarea.textarea-lg {
 }
 .button-secondary,
 .button-secondary:focus {
-    color: #151515;
-    background-color: #FA2F2F;
+    color: #FFF;
+    background-color: #d35738;
     border-color: #FA2F2F;
+    border-radius: 6px;
 }
 .button-secondary:hover,
 .button-secondary:active {
     color: #ffffff;
-    background-color: #000;
+    background-color: #a82634;
     border-color: #FA2F2F;
+
 }
 .title-classic {
     margin-bottom: -10px;
