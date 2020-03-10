@@ -8,7 +8,7 @@
     <meta name="description" content="Somos empresa dedicada a la venta de pisos, calidad y buen servicio a disposición de nuestros clientes." />
     <meta name="keywords" content="Ventas de Cerámicas, Porcelanato, Lavamanos, Tope de cocina   " />
 
-    <link rel="icon" href="images/ico.png" type="image/x-icon" />
+    <link rel="icon" href="img/favicon.jpg" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
     <link rel="stylesheet" href="js/menu.js" />
@@ -46,8 +46,9 @@
       <div class="swiper-container">
         <div class="swiper-wrapper">
           <div class="swiper-slide"><img src="img/header.jpg"  width="100%" alt="" /></div>
-          <div class="swiper-slide"><img src="img/header.jpg" width="100%" alt="" /></div>
-          <div class="swiper-slide"><img src="img/header.jpg" width="100%" alt="" /></div>
+          <div class="swiper-slide"><img src="img/header-2.jpg" width="100%" alt="" /></div>
+          <div class="swiper-slide"><img src="img/header-3.jpg" width="100%" alt="" /></div>
+
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
@@ -147,7 +148,7 @@
                   <li>
                     <div class="">
                       <div class="unit-left"><span class="icon mdi mdi-map-marker"></span></div>
-                      <div class="unit-body"><a href="https://www.google.com/maps/place/Ceramica+Apolo+Srl/@18.4613398,-69.7330266,17z/data=!3m1!4b1!4m5!3m4!1s0x8eaf8092f7132c0b:0xdb7975192cdd064b!8m2!3d18.4613398!4d-69.7308326">Av.  Marginal de las Américas km 19 no. 33 La Ureña, Santo Domingo Este </a></div>
+                      <div class="unit-body"><a href="https://www.google.com/maps/place/Ceramica+Apolo+Srl/@18.4613398,-69.7330266,17z/data=!3m1!4b1!4m5!3m4!1s0x8eaf8092f7132c0b:0xdb7975192cdd064b!8m2!3d18.4613398!4d-69.7308326" target="blank">Av.  Marginal de las Américas km 19 no. 33 La Ureña, Santo Domingo Este </a></div>
                     </div>
                   </li>
                   <li>
@@ -209,21 +210,24 @@
     <script src="../package/js/swiper.min.js"></script>
 
     <!-- Initialize Swiper -->
-    <script>
-      var swiper = new Swiper(".swiper-container", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev"
-        }
-      });
-    </script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
       <!-- Google analitycs -->
         <script type="text/javascript">
     var _gaq = (_gaq || []);
