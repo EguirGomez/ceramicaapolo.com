@@ -17,7 +17,7 @@ dim htmlBody
 Const nombreNegocio = "Ceramica Apolo SRL"
 
 '*PARAMETRO: DESTINATARIOS SEPARADOS POR ; (PUNTO Y COMA)
-Const destinatario = "mercedesdiaz199605@gmail.com; e.gomez2@caribemedia.com.do "
+Const destinatario = "mercedesdiaz199605@gmail.com;  "
 
 if URLDecode(Request.QueryString("email")) <> "" then
     emailfrom = URLDecode(Request.QueryString("email"))
